@@ -1,0 +1,1 @@
+import type {Metadata} from 'next';import './globals.css';export const metadata:Metadata={title:'xuelab · 科研工作台',description:'论文动态、科研早报、精读与写作',icons:{icon:'/favicon.svg'}};export default function Layout({children}:{children:React.ReactNode}){return <html lang="zh-CN"><body>{children}</body></html>;}
